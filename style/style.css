@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    /* margin:0px;
+    padding:0px; */
+    scroll-behavior: smooth;
+}
+
+h1, h2{
+    text-align:center;
+    color:white;
+    font-family: 'Lora', serif;
+}
+
+#header{
+   
+    background: linear-gradient(90deg, rgba(11,241,6,1) 2%, rgba(0,0,0,1) 100%);
+    padding-top: 50px;
+    padding-bottom:50px;
+    margin-bottom:50px;
+}
+#glavno{
+    margin-top: 0;
+    padding-top: 0;
+    justify-content: center;
+    margin:auto;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+  
+}
+#glavno .info{
+    margin-top: 0;
+    width:45%;
+    display:inline-block;
+    
+    
+}
+#glavno .centar{
+    margin-top: 0;
+    padding-top: 0;
+    position:relative;
+    width:2px;
+    height: 100%;
+    border-right: rgb(203, 201, 201) solid;
+    margin-left:10px;
+    margin-right:10px;
+  
+}
+#glavno .levi{
+    float:center;
+    text-align: right;
+    margin-right: 2%;
+    height: 100%;
+
+}
+#glavno .desni{
+    float:center;
+    margin-left: 2%;
+    height:100%;
+}
+span{
+    
+    align-items: center;
+    display:block;
+}
+#s1, #s2, #s3, #s4, #s5{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    position:absolute;
+    background-color:green;
+}
+#s1{
+    top:25px;
+}
+#s2{ 
+    top:175px;
+    background-color:green;
+}
+
+#s3{ 
+   top:355px;
+}
+#s4{ 
+   top:205px;
+}
+#s5{ 
+   top:615px;
+}
+
+#a1, #a2, #a3, #a4, #a5{
+    height:2px;
+    width: 30px;
+    border-bottom: green dashed;
+    position:absolute;
+}
+#a1{
+    right:-26px;
+    width:60px;
+}
+#a2, #a3{
+    right:5px;
+}
+
+#a4, #a5{
+    left:4px;
+}
+
+progress {
+    background: green;
+    width:150px;
+     }
+
+
+
+   
