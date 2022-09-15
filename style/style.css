@@ -18,7 +18,7 @@ h1, h2{
     padding-bottom:50px;
     margin-bottom:50px;
 }
-#glavno{
+#main{
     margin-top: 0;
     padding-top: 0;
     justify-content: center;
@@ -30,14 +30,14 @@ h1, h2{
     width:80%;
   
 }
-#glavno .info{
+#main .info{
     margin-top: 0;
     width:45%;
     display:inline-block;
     
     
 }
-#glavno .centar{
+#main .center{
     margin-top: 0;
     padding-top: 0;
     position:relative;
@@ -48,14 +48,14 @@ h1, h2{
     margin-right:10px;
   
 }
-#glavno .levi{
+#main .left{
     float:center;
     text-align: right;
     margin-right: 2%;
     height: 100%;
 
 }
-#glavno .desni{
+#main .right{
     float:center;
     margin-left: 2%;
     height:100%;
